@@ -1,0 +1,41 @@
+printrboard.name=Printrboard
+printrboard.upload.maximum_size=130048
+printrboard.upload.maximum_data_size=8192
+printrboard.upload.tool=HIDuploader
+printrboard.upload.protocol=
+printrboard.bootloader.tool=arduino:avrdude
+printrboard.bootloader.low_fuses=0xDE
+printrboard.bootloader.high_fuses=0xDB
+printrboard.bootloader.extended_fuses=0xF0
+printrboard.bootloader.path=
+printrboard.bootloader.unlock_bits=
+printrboard.bootloader.lock_bits=
+printrboard.bootloader.file=BootloaderHID.hex
+printrboard.build.board=PRINTRBOARD
+printrboard.build.core=teensy
+printrboard.build.mcu=at90usb1286
+printrboard.build.warn_data_percentage=94
+printrboard.build.toolchain=avr/bin/
+printrboard.build.command.gcc=avr-gcc
+printrboard.build.command.g++=avr-g++
+printrboard.build.command.ar=avr-ar
+printrboard.build.command.objcopy=avr-objcopy
+printrboard.build.command.objdump=avr-objdump
+printrboard.build.command.size=avr-size
+printrboard.build.flags.common=-g -Wall -ffunction-sections -fdata-sections
+printrboard.build.flags.dep=-MMD
+printrboard.build.flags.optimize=-Os
+printrboard.build.flags.cpu=-mmcu=at90usb1286
+printrboard.build.flags.defs=-DTEENSYDUINO=127
+printrboard.build.flags.cpp=-fno-exceptions -felide-constructors -std=c++0x
+printrboard.build.flags.c=
+printrboard.build.flags.S=-x assembler-with-cpp
+printrboard.build.flags.ld=-Wl,--gc-sections,--relax
+printrboard.build.flags.ldspecs=
+printrboard.build.flags.libs=-lm
+printrboard.build.serial_number=true
+printrboard.serial.restart_cmd=true
+
+printrboard.build.usbtype=USB_SERIAL
+printrboard.build.fcpu=16000000L
+printrboard.build.keylayout=US_ENGLISH
